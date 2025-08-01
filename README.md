@@ -8,19 +8,7 @@ This is a Spring Boot backend application designed for managing services with fa
 
 ### 1. Clone or Download ZIP
 
-You can either clone this repo or download the ZIP:
-
-#### 🔗 GitHub (Recommended)
-
-```bash
-https://github.com/ihrutvik/service-manager-backend-swisscom.git
-```
-
-#### 📁 Or Download ZIP
-
-1. Download ZIP from GitHub
-2. Extract the folder
-3. Open terminal inside the extracted folder
+You can either clone this repo or download the ZIP
 
 ---
 
