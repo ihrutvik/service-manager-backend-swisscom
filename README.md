@@ -29,20 +29,20 @@ cd service-manager-backend
 
 - Java 17+
 - [MongoDB](https://www.mongodb.com/try/download/community) running locally on port `27017`
-- macOS/Linux/WSL (for running `run.sh`)
+- macOS/Linux/WSL (for running `build-backend.sh`)
 - Maven not required — Maven Wrapper (`./mvnw`) is included
 
 ---
 
 ## 🚀 Running the Project
 
-### 🔁 Recommended: Use `run.sh`
+### 🔁 Recommended: Use `build-backend.sh`
 
 The script does everything for you:
 
 ```bash
-chmod +x run.sh
-./run.sh
+chmod +x build-backend.sh
+./build-backend.sh
 ```
 
 ✔️ Auto-installs Maven wrapper (if missing)  
@@ -52,7 +52,7 @@ chmod +x run.sh
 
 > Default Spring profile: `dev`
 
-You can change the profile inside `run.sh`:
+You can change the profile inside `build-backend.sh`:
 
 ```bash
 SPRING_PROFILE="dev"
@@ -126,7 +126,7 @@ spring.data.mongodb.uri=mongodb://localhost:27017/service_manager_db
 │   │   ├── service/ServiceCache.java
 │   │   └── exception/ServiceNotFoundException.java
 │   └── resources/application.properties
-├── run.sh
+├── build-backend.sh
 ├── logs/ (auto-created)
 └── README.md
 ```
