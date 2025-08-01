@@ -83,6 +83,15 @@ SPRING_PROFILE="dev"
 
 ---
 
+
+## 🌐 API Access via Swagger UI
+
+Once the backend is running, you can explore and test all available APIs using Swagger:
+
+🔗 [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+
+---
+
 ## 🧪 Running Tests
 
 ```bash
