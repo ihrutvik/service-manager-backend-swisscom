@@ -13,7 +13,7 @@ You can either clone this repo or download the ZIP:
 #### 🔗 GitHub (Recommended)
 
 ```bash
-git clone [(https://github.com/ihrutvik/service-manager-backend.git]
+https://github.com/ihrutvik/service-manager-backend-swisscom.git
 ```
 
 #### 📁 Or Download ZIP
